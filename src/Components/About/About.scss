@@ -1,0 +1,135 @@
+.containerAbout {
+
+    height: 40vh;
+    background-color: whitesmoke;
+
+    .aboutTitle {
+        padding: 50px 0 0 150px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+    .stockImage {
+        border: 2px black solid;
+        margin: 20px 150px;
+
+        & img {
+            height: 35vh;
+            width: 100%;
+        }
+    }
+}
+
+.containerOne {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px 0 150px;
+
+
+    .imageOne {
+        & img {
+            height: 35vh;
+            border: 2px black solid;
+        }
+    }
+
+    .containerTwo {
+        text-align: justify;
+
+        .textOne {
+            margin: 0 0 0 50px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .textTwo {
+            font-family: 'Poppins', sans-serif;
+            margin: 25px 0 0 50px;
+            font-size: 17px;
+            color: rgb(78, 78, 78);    
+        }
+    }
+}
+
+.containerThree {
+    margin: 120px 0 0 0;
+    padding: 0 150px;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+
+    .containerMV {
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 80px;
+        .titleMV {
+            font-size: 35px;
+            font-weight: 600;
+            margin: 0 0 20px 0;
+        }
+
+        .contentMV {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: rgb(78, 78, 78);  
+        }
+    }
+}
+
+.containerFour {
+    height: 100vh;
+    background-color: #2d2d38;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .sectionColumnCard{
+        .teamTitle {
+            padding: 50px 0 0 150px;
+            margin: 0 0 20px 0;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 50px;
+            color: white;
+        }
+    
+        .sectionRowCard {
+            display: flex;
+            flex-direction: row;
+            padding: 0 100px;
+            .containerCard {
+                padding: 0px 50px;
+                color: white;
+                font-family: 'Work Sans', sans-serif;
+                font-weight: 400;
+
+                .cardImage {
+                    & img {
+                        width: 100%;
+                    }
+                }
+
+                .cardName {
+                    font-size: 25px;
+                    font-weight: 500;
+                    margin: 10px 0 10px 0;
+                }
+
+                .cardPosition {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: rgb(185, 180, 180);  
+                    margin: 10px 0 10px 0;
+                }
+
+                .cardDescription {
+                    text-align: justify;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}

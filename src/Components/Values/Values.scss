@@ -1,0 +1,94 @@
+.containerValues {
+    height: 105vh;
+    background-color: whitesmoke;
+    padding: 0 150px 0 150px;
+
+    .sectionColumnValues {
+        display: flex;
+        flex-direction: column;
+
+        .sectionRowValues {
+            margin: 65px 0 0 0;
+            display: flex;
+            flex-direction: row;
+
+            .valuesImage {
+                & img {
+                    height: 40vh;
+                    border: 2px black solid;
+                }
+            }
+
+            .valuesImage2 {
+                & img {
+                    height: 40vh;
+                    width: 60vh;
+                    border: 2px black solid;
+                }
+            }
+
+            .valuesText {
+                padding: 20px 45px 0 45px;
+
+                .textOne {
+                    font-size: 35px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+            
+                .textTwo {
+                    margin: 20px 0 0 0;
+                    line-height: 1.5;
+                    font-family: 'Work Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: rgb(78, 78, 78);  
+                    text-align: justify;
+                }
+
+                
+
+                &2 {
+                    width: 50%;
+                    margin: 0 50px 0 0;
+                    .textOne {
+                        font-size: 35px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+
+                    .textThree {
+                        padding: 20px 0 0 0;
+                        line-height: 1.5;
+                        font-family: 'Work Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: rgb(78, 78, 78);  
+                        text-align: center;
+                    }
+                }
+
+                &3 {
+                    padding: 0 45px 0 45px;
+                    width: 35%;
+
+                    .textOne {
+                        font-size: 35px;
+                        font-weight: 600;
+                        // text-align: right;
+                    }
+                
+                    .textTwo {
+                        padding: 20px 0 0 0;
+                        line-height: 1.5;
+                        font-family: 'Work Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: rgb(78, 78, 78);  
+                        // text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.containerHeader{
+    font-family: 'DM Serif Text', serif;
+    height: 15vh;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .itemLogo {
+        margin: 0 0 0 20px;
+        font-size: 25px;
+
+        img {
+            width: 220px;
+        }
+    }
+
+    .itemList {
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif;
+        list-style: none;
+        display:block;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+            margin: 0 0 0 40px;
+
+            // .active {
+            //     color: pink;
+            // }
+
+            :hover {
+                color: gray;
+            }
+
+        }
+        
+    }
+
+    .itemBook {
+        font-family: 'Poppins', sans-serif;
+        background-color: #FFCA63;
+        color: black;
+        font-weight: 600;
+        font-size: 15px;
+        padding: 12px 18px;
+        margin: 0 20px 0 0;
+        border-radius: 5px;
+        letter-spacing: 2px;
+
+        &:hover {
+            background-color: #feda92;   
+        }
+    }
+}

@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.containerVisit {
+    background-color: whitesmoke;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .containerText {
+        width: 50%;
+        text-align: center;
+        padding: 50px;
+        .textOne {
+            color: black;
+            font-size: 65px;
+            font-weight: 600;
+            margin: 100px 0 40px 0;
+        }
+
+        .buttonOne {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFCA63;
+            color: black;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 12px 18px;
+            border-radius: 5px;
+            letter-spacing: 2px;
+            display: inline;
+
+            &:hover {
+                background-color: #feda92;   
+            }
+        }
+    }
+
+    .image {
+        img {
+            max-width: 100%;
+            max-height: 85vh;
+            float: right;
+        }
+    }
+
+}
