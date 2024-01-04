@@ -1,6 +1,6 @@
 import About from '../Components/About/About'
 
-export default function HomePage (){
+export default function AboutPage(){
     return (
         <>
             <About />

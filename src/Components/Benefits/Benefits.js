@@ -1,5 +1,6 @@
 import React from "react";
 import './Benefits.scss'
+import { Link } from "react-router-dom";
 
 const Benefits = () => {
     return (
@@ -22,7 +23,7 @@ const Benefits = () => {
                 </div>
                 
                 <div className="containerButtonBenefits">
-                    <div className="benefitsButton"><a href="">VIEW SERVICES</a></div>
+                    <div className="benefitsButton"><Link to="/services">VIEW SERVICES</Link></div>
                 </div>
             </div>
         </div>

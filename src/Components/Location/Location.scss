@@ -1,0 +1,37 @@
+.containerLocation {
+    height: 100vh;
+    background-color: whitesmoke;
+    padding: 100px 280px 0px 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .googleMap {
+        height: 60vh;
+        width: 60vh;
+
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+    .containerTextLocation {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+
+        .textContact {
+            font-size: 50px;
+        }
+
+        .textLocation {
+            margin: 20px 0 0 0;
+        }
+
+        .textWA {
+            margin: 30px 0 0 0;
+            font-weight: 400;
+        }
+    }
+}

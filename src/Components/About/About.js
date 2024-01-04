@@ -88,6 +88,46 @@ export default function About() {
                 description="Anna is the company founder, she has long working experience in HR before setup Anpro Solution, she understand what industry need and requirements to work and to run company in Indonesia legally "
                 />
             </div>
+            <div className="sectionRowCard">
+                <Card
+                image="./Assets/StockPhoto.png"
+                name="Anna Lee"
+                position="Founder / CEO"
+                description="Anna is the company founder, she has long working experience in HR before founding Anpro Solution, she understand what the industry need and the requirements to work and to run company in Indonesia legally "
+                />
+                <Card
+                image="./Assets/StockPhoto.png"
+                name="Manto A. S"
+                position="Founder / CEO"
+                description="Anna is the company founder, she has long working experience in HR before setup Anpro Solution, she understand what industry need and requirements to work and to run company in Indonesia legally "
+                />
+                <Card
+                image="./Assets/StockPhoto.png"
+                name="Angriani Dian"
+                position="Founder / CEO"
+                description="Anna is the company founder, she has long working experience in HR before setup Anpro Solution, she understand what industry need and requirements to work and to run company in Indonesia legally "
+                />
+            </div>
+            <div className="sectionRowCard">
+                <Card
+                image="./Assets/StockPhoto.png"
+                name="Anna Lee"
+                position="Founder / CEO"
+                description="Anna is the company founder, she has long working experience in HR before founding Anpro Solution, she understand what the industry need and the requirements to work and to run company in Indonesia legally "
+                />
+                <Card
+                image="./Assets/StockPhoto.png"
+                name="Manto A. S"
+                position="Founder / CEO"
+                description="Anna is the company founder, she has long working experience in HR before setup Anpro Solution, she understand what industry need and requirements to work and to run company in Indonesia legally "
+                />
+                <Card
+                image="./Assets/StockPhoto.png"
+                name="Angriani Dian"
+                position="Founder / CEO"
+                description="Anna is the company founder, she has long working experience in HR before setup Anpro Solution, she understand what industry need and requirements to work and to run company in Indonesia legally "
+                />
+            </div>
         </div>
       </div>
     </div>

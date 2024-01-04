@@ -1,7 +1,7 @@
 .containerValues {
     height: 105vh;
     background-color: whitesmoke;
-    padding: 0 150px 0 150px;
+    padding: 0 150px 40px 150px;
 
     .sectionColumnValues {
         display: flex;
@@ -75,7 +75,7 @@
                     .textOne {
                         font-size: 35px;
                         font-weight: 600;
-                        // text-align: right;
+                        text-align: center;
                     }
                 
                     .textTwo {

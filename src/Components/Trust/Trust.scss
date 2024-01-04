@@ -1,0 +1,51 @@
+.containerTrust {
+    background-color: rgb(227, 227, 227);
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Serif Text', serif;
+
+    .trustTitle {
+        margin: 60px 0 0 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sectionRowCard {
+        padding: 50px 150px 0 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .containerCard {
+            padding: 0px 50px;
+            color: black;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            width: 50%;
+    
+            .cardImage {
+                & img {
+                    width: 100%;
+                }
+            }
+    
+            .cardName {
+                font-size: 20px;
+                font-weight: 500;
+                margin: 10px 0 10px 0;
+            }
+    
+            .cardPosition {
+                font-size: 15px;
+                font-weight: 400;
+                color: #2d2d38;  
+                margin: 15px 0 15px 0;
+            }
+    
+            .cardDescription {
+                text-align: justify;
+            }
+        }
+    }
+
+}

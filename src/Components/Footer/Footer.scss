@@ -1,0 +1,51 @@
+.containerFooter {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: #2d2d38;
+    font-family: 'Work Sans', sans-serif;
+
+    .containerLinks {
+        padding: 50px 500px 0 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .sectionImage {
+            & img {
+                height: 10vh;
+            }
+        }
+    
+        ul {
+            list-style: none;
+            
+            .sectionTitle {
+                font-size: 20px;
+                font-weight: 500;
+                margin: 0 0 20px 0;
+            }
+    
+            li {
+                line-height: 2;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    .lineBreak {
+        border: 1px solid black;
+        margin: 50px 150px 0 150px;
+    }
+
+    .copyrightText {
+        padding: 10px 150px 0 150px;
+    }
+
+}
